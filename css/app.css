@@ -7312,29 +7312,7 @@ a:visited {
     color: #252525
 }
 
-@font-face {
-    font-family: graphik;
-    src: url(../font/Graphik-Regular.eot)
-}
 
-@font-face {
-    font-family: 'graphik';
-    src: url("../font/Graphik-Regular.woff") format("woff"),url("../font/Graphik-Regular.svg") format("svg");
-    font-weight: normal;
-    font-style: normal
-}
-
-@font-face {
-    font-family: howlt_circle;
-    src: url(../font/howlt_circle.eot)
-}
-
-@font-face {
-    font-family: 'howlt_circle';
-    src: url("../font/howlt_circle.woff") format("woff"),url("../font/howlt_circle.svg") format("svg");
-    font-weight: normal;
-    font-style: normal
-}
 
 @font-face {
     font-family: circular_bold;
@@ -7646,7 +7624,7 @@ a:visited {
     top: 150px;
     text-align: left;
     color: #5aa54a;
-    font-family: howlt_circle, sans-serif;
+    font-family: sans-serif;
     letter-spacing: 1px;
     font-size: .71429rem;
     line-height: 1.715rem;
@@ -8707,7 +8685,7 @@ body {
     font: 13px/1.231 arial, helvetica, clean, sans-serif;
     *font-size: small;
     *font: x-small;
-    font-family: graphik,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family: sans-serif;
     font-size: 85%;
     line-height: 1.5;
     line-height: 1.5\9;
@@ -8843,7 +8821,7 @@ body.night {
     border: none;
     background: none;
     font-feature-settings: "palt";
-    font-family: howlt_circle, sans-serif;
+    font-family:  sans-serif;
     letter-spacing: 1px;
     font-size: .85714rem;
     line-height: 1.715rem;
@@ -9296,10 +9274,7 @@ body.night {
     display: none
 }
 
-#design-howlt {
-    display: block;
-    margin-bottom: 35px
-}
+
 
 .menu-icon {
     display: block;
@@ -9315,101 +9290,6 @@ body.night {
     transition: all 0.3s ease-out
 }
 
-.menu-icon .cart-button .close-button .lw-close-icon-line,.cart-button .close-button .menu-icon .lw-close-icon-line,.menu-icon .cart-button .close-button .lw-close-icon-line-2,.cart-button .close-button .menu-icon .lw-close-icon-line-2,.menu-icon .lw-menu-icon-line,.menu-icon .lw-close-icon-line,.menu-icon .lw-close-icon-line-2 {
-    width: 18px;
-    height: 2px;
-    background: #141414;
-    display: block;
-    position: absolute;
-    left: 15px;
-    z-index: 1
-}
-
-.menu-icon .lw-menu-icon-line {
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out
-}
-
-.on-menu .menu-icon .lw-menu-icon-line {
-    left: 12px;
-    opacity: 0
-}
-
-.menu-icon .lw-menu-icon-line-top {
-    top: 19px;
-    transition-delay: 500ms,500ms
-}
-
-.on-menu .menu-icon .lw-menu-icon-line-top {
-    top: 19px;
-    transition-delay: 0ms,0ms
-}
-
-.menu-icon .lw-menu-icon-line-middle {
-    top: 24px;
-    transition-delay: 650ms,650ms
-}
-
-.on-menu .menu-icon .lw-menu-icon-line-middle {
-    top: 24px;
-    transition-delay: 150ms,150ms
-}
-
-.menu-icon .lw-menu-icon-line-bottom {
-    top: 29px;
-    transition-delay: 800ms,800ms
-}
-
-.on-menu .menu-icon .lw-menu-icon-line-bottom {
-    top: 29px;
-    transition-delay: 300ms,300ms
-}
-
-.menu-icon .lw-close-icon-line {
-    opacity: 0;
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out
-}
-
-.on-menu .menu-icon .lw-close-icon-line {
-    opacity: 1;
-    -moz-transition: all 0.5s ease-out 0.5s;
-    -o-transition: all 0.5s ease-out 0.5s;
-    -webkit-transition: all 0.5s ease-out 0.5s;
-    transition: all 0.5s ease-out 0.5s;
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg)
-}
-
-.menu-icon .lw-close-icon-line-1 {
-    top: 23px
-}
-
-.menu-icon .lw-close-icon-line-2 {
-    height: 18px;
-    width: 2px;
-    left: 23px;
-    top: 15px
-}
-
-@media (min-width: 988px) {
-    .menu-icon {
-        display:none
-    }
-}
-
-.on-cart .menu-icon {
-    opacity: 0;
-    left: -5px;
-    z-index: 0
-}
 
 #gnav-list {
     overflow: hidden
@@ -9427,7 +9307,7 @@ body.night {
 }
 
 #gnav-list li a .menu-text {
-    font-family: howlt_circle, sans-serif;
+    font-family:  sans-serif;
     letter-spacing: 2px;
     font-size: .78571rem;
     line-height: 1.715rem;
@@ -9864,7 +9744,7 @@ body.night {
     top: 60px;
     left: 43px;
     font-feature-settings: "palt";
-    font-family: howlt_circle, sans-serif;
+    font-family:  sans-serif;
     letter-spacing: 1px;
     font-size: .78571rem;
     line-height: 1.715rem;
@@ -9880,7 +9760,7 @@ body.night {
     border-top: 1px solid silver;
     overflow: hidden;
     font-feature-settings: "palt";
-    font-family: howlt_circle, sans-serif;
+    font-family:  sans-serif;
     letter-spacing: 1px;
     font-size: .85714rem;
     line-height: 1.715rem;
@@ -9902,7 +9782,7 @@ body.night {
 
 #current-paging {
     font-feature-settings: "palt";
-    font-family: howlt_circle, sans-serif;
+    font-family: sans-serif;
     letter-spacing: 1px;
     font-size: .71429rem;
     line-height: 1.715rem
@@ -9991,7 +9871,7 @@ body.night {
 #news article .news-description {
     color: #888;
     font-feature-settings: "palt";
-    font-family: howlt_circle, sans-serif;
+    font-family: sans-serif;
     letter-spacing: 1px;
     font-size: .71429rem;
     line-height: 1.715rem;
@@ -10461,40 +10341,5 @@ footer ul li a:hover svg {
     }
 }
 
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.75); /* Black w/ opacity */
-}
 
-/* Modal Content */
-.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-}
 
-/* The Close Button */
-.close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
