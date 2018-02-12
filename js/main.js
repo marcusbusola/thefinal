@@ -32446,16 +32446,16 @@ var URLManagerEx = (function(b) {
     a.letter_y = a.path + "./img/town/y.png";
     a.letter_s = a.path + "img/town/sl_s.png";
     a.letter_o = a.path + "img/town/sl_o.png";
-    a.gallery_pc = a.path + "./thefinal/img/town/pc.png";
+    a.gallery_pc = a.path + "./img/town/pc.png";
     //a.fr_obj_flag = a.path + "./thefinal/img/town/flag.png";
-    a.shop_clerk = a.path + "./thefinal/img/town/shop_clerk.png";
-    a.shop_trump = a.path + "./thefinal/img/town/shop_trump.png";
-    a.shop_john = a.path + "./thefinal/img/town/shop_john.png";
-    a.car_body = a.path + "./thefinal/img/town/danfo.png";
-    a.car_tire = a.path + "./thefinal/img/town/car_tire.png";
-    a.car_inside = a.path + "./thefinal/img/town/car_inside.png";
-    a.car_w_inside = a.path + "./thefinal/img/town/car_w_inside.png";
-    a.car_w_body = a.path + "./thefinal/img/town/car_w_body.png";
+    a.shop_clerk = a.path + "./img/town/shop_clerk.png";
+    a.shop_trump = a.path + "./img/town/shop_trump.png";
+    a.shop_john = a.path + "./img/town/shop_john.png";
+    a.car_body = a.path + "./img/town/danfo.png";
+    a.car_tire = a.path + "./img/town/car_tire.png";
+    a.car_inside = a.path + "./img/town/car_inside.png";
+    a.car_w_inside = a.path + "./img/town/car_w_inside.png";
+    a.car_w_body = a.path + "./img/town/car_w_body.png";
   
     return a
 }
@@ -34336,13 +34336,13 @@ var LayoutContainerTown = (function(b) {
             b.play();
             if ((navigator.userAgent.indexOf("iPhone") > 0 || navigator.userAgent.indexOf("iPad") > 0) || navigator.userAgent.indexOf("iPod") > 0) {
                 Site.browserType = "applePhone"
-                console.log("not optimised for mobile");
-                window.alert("not optimised for Mobile");
+                console.log("Hello, I didnt really have time to work on the mobile :(. ");
+                window.alert("Hello, I didnt really have time to work on the mobile :(. ");
             } else {
                 if (navigator.userAgent.indexOf("Android") > 0) {
                     Site.browserType = "android"
-                    console.log("not optimised for mobile");
-                    window.alert("not optimised for Mobile");
+                    console.log("Hello, I didnt really have time to work on the mobile :(. ");
+                    window.alert("Hello, I didnt really have time to work on the mobile :(. ");
 
                 } else {
                     Site.browserType = "laptop"
@@ -34360,13 +34360,13 @@ var LayoutContainerTown = (function(b) {
                     a("meta[name='viewport']").attr("content", "initial-scale=1.0, maximum-scale=2, minimum-scale=1.0, user-scalable=yes, width=" + j)
                 }
                 Site.browserType = "mobile"
-                console.log("not optimised for mobile");
-                window.alert("not optimised for Mobile");
+                console.log("Hello, I didnt really have time to work on the mobile :(. ");
+                window.alert("Hello, I didnt really have time to work on the mobile :(. ");
             } else {
                 if (navigator.userAgent.indexOf("iPad") > 0 || (navigator.userAgent.indexOf("Android") > 0 && navigator.userAgent.indexOf("Mobile") == -1) || navigator.userAgent.indexOf("A1_07") > 0 || navigator.userAgent.indexOf("SC-01C") > 0) {
                     Site.browserType = "tablet"
-                    console.log("not optimised for mobile");
-                    window.alert("not optimised for Mobile");
+                    console.log("Hello, I didnt really have time to work on the mobile :(. ");
+                    window.alert("Hello, I didnt really have time to work on the mobile :(. ");
 
 
                 } else {
@@ -34376,8 +34376,8 @@ var LayoutContainerTown = (function(b) {
             if (navigator.userAgent.indexOf("iPhone") > 0 || navigator.userAgent.indexOf("iPad") > 0 || navigator.userAgent.indexOf("iPod") > 0 || navigator.userAgent.indexOf("Android") > 0) {
                 Site.animate = false;
                 a.pjax.disable()
-                console.log("not optimised for mobile");
-                window.alert("not optimised for Mobile")
+                console.log("Hello, I didnt really have time to work on the mobile :(. ");
+                window.alert("Hello, I didnt really have time to work on the mobile :(. ")
             }
 
         
